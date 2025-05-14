@@ -1,6 +1,6 @@
 # Lekompo Balcony Mix
 
-Discover the vibrant world of Lekompo music! [View the site here](#) (best viewed on PC but fully responsive).
+Discover the vibrant world of Lekompo music! [View the site here](https://lekompo-balcony-mix.vercel.app/) (best viewed on PC but fully responsive).
 
 ---
 
