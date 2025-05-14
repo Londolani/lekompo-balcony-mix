@@ -136,10 +136,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Credits
 
-- **Design inspiration**: [Sources if applicable]
-- **Fonts**: [Font names used]
-- **Icons**: Lucide icons via Nuxt Icon module
-
+- AI tools 
 ---
 
 ## Contact
