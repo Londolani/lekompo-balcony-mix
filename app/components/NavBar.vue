@@ -9,18 +9,17 @@ const items: NavigationMenuItem[] = [
   { label: 'About', to: '#about', icon: 'i-lucide-info' },
   { label: 'Artists', to: '#artists', icon: 'i-lucide-users' },
   { label: 'Music', to: '#music', icon: 'i-lucide-music' },
-  { label: 'Gallery', to: '#gallery', icon: 'i-lucide-image' },
-  { label: 'Tickets', to: '#tickets', icon: 'i-lucide-ticket' },
-  { label: 'Social', to: '#social', icon: 'i-lucide-share-2' }
+  { label: 'Gallery', to: '#gallery', icon: 'i-lucide-image' }
 ]
 </script>
 
 <template>
-  <div class="fixed top-0 w-full bg-black z-50">
+  <div class="fixed top-0 w-full bg-black z-50 shadow-lg">
     <UNavigationMenu
       :items="items"
       class="w-full justify-around px-4 py-3"
       orientation="horizontal"
+      sm:orientation="vertical"
       variant="link"
       highlight
       highlight-color="primary"
@@ -28,7 +27,7 @@ const items: NavigationMenuItem[] = [
       <template #default="{ item }: { item: NavigationMenuItem }">
         <NuxtLink
           :to="item.to"
-          class="flex items-center bg-black text-red-500 hover:text-red-400 transition px-4 py-2 rounded"
+          class="flex items-center bg-black text-red-500 hover:text-yellow-400 transition-all duration-300 px-4 py-2 rounded"
         >
           <i :class="item.icon + ' mr-2'" />
           {{ item.label }}
