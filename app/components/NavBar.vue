@@ -19,7 +19,6 @@ const items: NavigationMenuItem[] = [
       :items="items"
       class="w-full justify-around px-4 py-3"
       orientation="horizontal"
-      sm:orientation="vertical"
       variant="link"
       highlight
       highlight-color="primary"
